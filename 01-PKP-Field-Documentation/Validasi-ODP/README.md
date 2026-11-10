@@ -5,8 +5,8 @@ Pengecekan dan sinkronisasi data fisik ODP di lapangan dengan sistem pendataan p
 
 ## 2. Evidence & Data Log
 - **Visual Mapping:**
-![MAP 1](./map-validasi-1.PNG)
-![MAP 2](./map-validasi-2.PNG)
+![MAP 1](./map%20validasi%201.PNG)
+![MAP 2](./map%20validasi%202.PNG)
 
 - **Data Spreadsheet:** *(log validasi)*
 
