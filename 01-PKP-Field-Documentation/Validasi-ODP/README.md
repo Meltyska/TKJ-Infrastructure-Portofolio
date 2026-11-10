@@ -4,7 +4,7 @@
 Pengecekan dan sinkronisasi data fisik ODP di lapangan dengan sistem pendataan pusat (Spreadsheet / GIS Mapping) untuk memastikan data kapasitas port dan koordinat presisi.
 
 ## 2. Evidence & Data Log
-- **Visual Mapping:** *(foto map)*
+- **Visual Mapping:** *![Deskripsi Gambar](./map20%validasi20%odp20%1.jpg)*
 - **Data Spreadsheet:** *(log validasi)*
 
 ## 3. Workflow & Parameters Validated
