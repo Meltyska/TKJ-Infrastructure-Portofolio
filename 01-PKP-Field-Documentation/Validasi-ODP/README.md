@@ -1,21 +1,25 @@
-# 📍 Dokumentasi Validasi & Pemetaan ODP (Optical Distribution Point)
+# 📍 Audit, Validasi & Data Entry ODP (Optical Distribution Point)
 
-## 1. Scope & Objective
-Pengecekan dan sinkronisasi data fisik ODP di lapangan dengan sistem pendataan pusat (Spreadsheet / GIS Mapping) untuk memastikan data kapasitas port dan koordinat presisi.
+## 1. Overview & Objective
+Dokumentasi alur kerja pemetaan ulang (*re-mapping*), validasi status aset, dan penginputan data inventaris *Optical Distribution Point* (ODP) ke dalam sistem *spreadsheet* (Google Sheets/Excel) serta pemetaan digital.
 
-## 2. Evidence & Data Log
-- **Visual Mapping:**
-- 
-![Map Validasi 1](./map%20validasi%201.png)
+## 2. Integrated Workflow
 
-![Map Validasi 2](./map%20validasi%202.png)
+### Phase 1: Validasi Sinyal & Koordinat
+- **Audit Port:** Memeriksa status port terpakai, *idle*, atau rusak pada *Passive Splitter* (1:8 / 1:16).
+- **Point Tagging:** Memastikan koordinat ODP di peta digital presisi dengan titik tiang di lapangan.
 
-- **Data Spreadsheet:** *(log validasi)*
+### Phase 2: Data Entry & Rekonsiliasi (Spreadsheet)
+- **Input Database:** Memasukkan parameter kode ODP, kapasitas port, status ketersediaan, dan alamat ke Google Sheets/Excel.
+- **Status Update:** Memperbarui log status ODP (*Available/Full*) untuk mencegah salah alokasi oleh tim Pasang Baru (PSB).
 
-## 3. Workflow & Parameters Validated
-- **Tagging Koordinat (Lat/Long):** Memastikan posisi fisik ODP sesuai dengan titik *pinpoint* di peta digital untuk memudahkan tim maintenance teknisi lapangan.
-- **Audit Port & Capacity:** Mencatat jumlah port aktif, port kosong (idle), dan port rusak (damaged) pada Passive Splitter (misal ratio 1:8 atau 1:16).
-- **Kesesuaian Kode ODP:** Memvalidasi penamaan/labelling fisik box ODP di tiang dengan database pusat (misal: `ODP-CBT-01/04`).
+## 3. Evidence & Log Visual
 
-## 4. Value / Impact
-Mencegah terjadinya kesalahan pendataan *FAT/ODP full*, mempercepat proses *provisioning* pasang baru (PSB) pelanggan, dan mempermudah pemetaan jalur utama *feeder/distribution*.
+<img src="./map-validasi-1.jpg" width="600" alt="Pemetaan Digital ODP">  
+*Gambar 1: Validasi posisi titik koordinat ODP pada aplikasi mapping.*
+
+<img src="./map-validasi-2.jpg" width="600" alt="Input Data Spreadsheet">  
+*Gambar 2: Penginputan dan pembaruan database inventarisasi ODP di Google Sheets/Excel.*
+
+> 🔒 **Privacy Note:**  
+> Detail kontak personel dan angka koordinat presisi telah dikaburkan (*blurred*) demi keamanan data internal.
