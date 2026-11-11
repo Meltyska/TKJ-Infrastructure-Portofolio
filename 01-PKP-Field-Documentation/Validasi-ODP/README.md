@@ -15,11 +15,11 @@ Dokumentasi alur kerja pemetaan ulang (*re-mapping*), validasi status aset, dan 
 
 ## 3. Evidence & Log Visual
 
-![Foto Panel Box 1](./map%20validasi%201.png)
+![Foto di Aplikasi SO (Stock opname)](./map%20validasi%201.png)
 *Validasi posisi titik koordinat ODP pada aplikasi mapping.*
 
-<img src="./map-validasi-2.jpg" width="600" alt="Input Data Spreadsheet">  
-*Gambar 2: Penginputan dan pembaruan database inventarisasi ODP di Google Sheets/Excel.*
+![Foto Data di spreadsheet](./validasi%202.jpg)
+*Penginputan dan pembaruan database inventarisasi ODP di Google Sheets/Excel.*
 
 > 🔒 **Privacy Note:**  
-> Detail kontak personel dan angka koordinat presisi telah dikaburkan (*blurred*) demi keamanan data internal.
+> Detail kontak personel dan angka koordinat presisi telah disensor demi keamanan data internal.
