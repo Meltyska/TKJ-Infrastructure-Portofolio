@@ -1,2 +1,2 @@
 
-![TroubleShooting 1](./map%20validasi%201.png)
+![TroubleShooting 1](./troubleshoot%20FO%201.jpg)
